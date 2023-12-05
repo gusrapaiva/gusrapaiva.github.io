@@ -1,0 +1,53 @@
+.entenda{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(-45deg, rgba(132,196,255,1) 0%, rgb(58, 145, 226) 30%, rgba(0,115,222,1) 100%);
+    /* background: linear-gradient(45deg, rgba(3,132,252,1) 0%, rgba(93,176,254,1) 100%); */
+}
+
+.entenda .texto{
+    position: absolute;
+    top: 25%;
+    left: 6%;
+    max-width: 70%;
+    color: #fff;
+}
+
+.texto .title{
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 500;
+    margin: 2vh 0;
+}
+
+
+.entenda span{
+    color: yellow;
+}
+
+.sub p{
+    color: #e0e0e0;
+    font-size: 1.3vw;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 500;
+}
+
+.p p{
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.entenda .p{
+    max-width: 55%;
+    line-height: 4vh;
+}
+
+.entenda .imagem{
+    position: absolute;
+    top: 16%;
+    right: 8%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.imagem img{
+    width: 23vw;
+}

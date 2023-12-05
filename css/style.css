@@ -1,0 +1,160 @@
+.video-bg{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -99;
+    background-color: #2c2c2c;
+}
+
+.overlay{
+    position: absolute;
+    background-color: #000;
+    z-index: -98;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.7;
+}
+
+/* header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+    height: 14vh;
+    background-color: rgba(0, 0, 0, 0.26);
+    text-align: center;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.titulo h1{
+    font-size: 2.5vw;
+    margin-left: 3vw;
+    font-family: 'JetBrains Mono', monospace;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.opts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    font-family: 'Jaldi', sans-serif;
+    font-weight: 400;
+}
+
+.opt a, .opt h4{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+.opt h4:hover{
+    text-decoration: underline;
+} */
+
+.vertical{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: -17%;
+    color: #fff;
+    width: 44%;
+    transform: rotate(-90deg);
+}
+
+.vtext h4{
+    font-size: 1.4vw;
+    font-weight: 300;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 400;
+}
+
+.line{
+    background-color: #fff;
+    height: 1px;
+    width: 20%;
+}
+
+.short{
+    width: 14%;
+}
+
+.long{
+    width: 35%;
+}
+
+.arrow{
+    font-size: 2vw;
+    margin-right: -3vw;
+}
+
+.centro{
+    position: absolute;
+    top: 18%;
+    left: 15%;
+    color: #fff;
+    max-width: 55%;
+}
+
+.title{
+    margin: 2vh 0;
+}
+
+.title h1{
+    font-size: 4vw;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 800;
+}
+
+.p{
+    max-width: 75%;
+    margin-top: 5vh;
+}
+
+.p p{
+    font-size: 1.3vw;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 500;
+}
+
+.grad1{
+    background: -webkit-linear-gradient(0deg, rgb(12, 241, 50), rgb(80, 110, 247));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.grad2{
+    background: -webkit-linear-gradient(0deg, rgb(100, 126, 243), rgb(233, 121, 255), rgb(255, 105, 19));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+}
+
+.divisor{
+    height: 20vh;
+    background-image: url(../assets/bonito.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
